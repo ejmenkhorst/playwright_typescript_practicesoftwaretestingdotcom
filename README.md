@@ -1,0 +1,2 @@
+# playwright_typescript_practicesoftwaretestingdotcom
+Playwright TypeScript portfolio project
