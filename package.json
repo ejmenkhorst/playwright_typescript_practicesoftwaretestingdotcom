@@ -1,0 +1,29 @@
+{
+  "name": "playwright_typescript_practicesoftwaretestingdotcom",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript portfolio project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "uimode": "npx playwright test --ui",
+    "chrome" : "npx playwright test --project=chromium"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejmenkhorst/playwright_typescript_practicesoftwaretestingdotcom.git"
+  },
+  "keywords": [
+    "Playwright",
+    "TypeScript"
+  ],
+  "author": "Erik Menkhorst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejmenkhorst/playwright_typescript_practicesoftwaretestingdotcom/issues"
+  },
+  "homepage": "https://github.com/ejmenkhorst/playwright_typescript_practicesoftwaretestingdotcom#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.5"
+  }
+}
