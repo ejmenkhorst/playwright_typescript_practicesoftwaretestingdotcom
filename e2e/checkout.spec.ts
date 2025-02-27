@@ -8,7 +8,7 @@ test.describe('checkout features', () => {
     await page.goto('/checkout'); 
   });
 
-test('checkoutpage has title', async ({ page }) => {
+test('checkout page has correct title', async ({ page }) => {
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Checkout - Practice Software Testing - Toolshop/);
   
